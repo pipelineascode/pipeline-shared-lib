@@ -1,4 +1,11 @@
 package org.foo;
+import hudson.model.*
+
+def config = new HashMap()
+def bindings = getBinding()
+config.putAll(bindings.getVariables())
+
+def out = config['out']
 
 class Utilities {
 
@@ -12,8 +19,8 @@ class Utilities {
 */
 
 	
-	static def mvn(script, args, out) {
-    	print "in static mvn"
+	static def mvn(script, args) {
+    	out.println "in static mvn"
   	}
 
 }
