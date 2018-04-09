@@ -12,8 +12,8 @@ class Utilities {
 */
 
 	
-	static def mvn(script, args) {
-    	
+	static def mvn(script, args, out) {
+    	out.println "in static mvn"
   	}
 
 }
