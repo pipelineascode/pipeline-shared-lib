@@ -13,7 +13,7 @@ class Utilities {
 
 	
 	static def mvn(script, args, out) {
-    	out.println "in static mvn"
+    	print "in static mvn"
   	}
 
 }
