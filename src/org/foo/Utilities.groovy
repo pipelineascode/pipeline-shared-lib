@@ -4,10 +4,9 @@ class Utilities {
 
 	def steps
   	Utilities(steps) {this.steps = steps}
-  	def mvn(args, out) {
-    	//steps.sh "${steps.tool 'Maven'}/bin/mvn -o ${args}"
-    	//out.println "in static mvn"
-    	steps.echo "using steps.echo"
+  	def mvn(args) {
+  		steps.echo "using steps.echo"
+    	steps.sh "${steps.tool 'Maven311'}/bin/mvn -o ${args}"    	
   	}
 }
 
