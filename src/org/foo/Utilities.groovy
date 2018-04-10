@@ -1,5 +1,4 @@
 package org.foo;
-import hudson.model.*
 
 class Utilities {
 
@@ -19,12 +18,4 @@ class Utilities {
 */
 }
 
-/*
-// Get the out variable
-def config = new HashMap()
-def bindings = getBinding()
-config.putAll(bindings.getVariables())
 
-def out = config['out']
-out.println("Before mvn")
-*/
