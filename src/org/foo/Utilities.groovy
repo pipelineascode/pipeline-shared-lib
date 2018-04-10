@@ -9,13 +9,6 @@ class Utilities {
     	//out.println "in static mvn"
     	steps.echo "using steps.echo"
   	}
-
-
-/*	
-	static def mvn(script, args) {
-    	out.println "in static mvn"
-  	}
-*/
 }
 
 
