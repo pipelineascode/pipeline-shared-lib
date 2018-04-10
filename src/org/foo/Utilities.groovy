@@ -6,7 +6,7 @@ class Utilities {
   	Utilities(steps) {this.steps = steps}
   	def mvn(args) {
   		steps.echo "using steps.echo"
-    	steps.sh "${steps.tool 'Maven311'}/bin/mvn -o ${args}"    	
+    	steps.bat "${steps.tool 'Maven311'}/bin/mvn --version"    	
   	}
 }
 
