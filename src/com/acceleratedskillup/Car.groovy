@@ -10,7 +10,7 @@ class Car {
 		this.script = script
 	}
 	
-  	def printOutCar() {
+  	void printOutCar() {
 		script.echo "using script.echo"
   		script.echo "numberOfDoors:${numberOfDoors}"    	
 		script.echo "brand:${brand}"    	
