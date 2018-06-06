@@ -3,7 +3,7 @@ def call(String stageName) {
 		agent any
 		stages 
 		{
-			stage(stageName) 
+			stage("${stageName}") 
 			{
 				steps 
 				{
